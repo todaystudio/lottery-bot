@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "logical-handler-353506",
+  "private_key_id": "614d098ba2bc028906d776f6038dd9fdb76aab5e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCeViDn85+wiAKS\ngjpbRv9uTKacvynwiXCzViF23zHy8/sCHZysdrwdp78gkHwyjTsm0sH2MsC0/Mx2\nqycCc2Bu86cmLC+Nb/YQ0X5mm1GKmGKJP+FcS0UPodTtsFY+7grr7kMbWwaCC34l\nlhr+UMd4A3s5/O2ad2bjIDZBtluJdmujpcHfsMc2PNN3GdeF4WB/JBvj8knU/kE9\nCsRdK3fCanxlNpb6FU5v8UVhf+Bf/hHnCaO+SD2yCYcIq1H/7+2OUBZhV+4yQcxt\nrob20pXu8jl3KBYHt8Yxu/uMnahOYeCPxSqhjRN8uScqHVnTCUwseVpxgdiklIgr\nRe0b5uf1AgMBAAECggEAASf6vzumCB1qIjGj8iXIOJqdlQnuHFGvAL3WUNGlTsaa\nZ92ZY6BnVCXoLTlY3gUH435VyItk1FcY01Bn7V20NjZk9OnZyNdCZvhWPn+pizdJ\niujsQQBss+x4C1DgRFiriQvMZVjKddMjKLkz0vUTvv8/6SbwNJ9LR6/LYNRcNUDL\nUs0Ch4/4A5KO9oEdGlQX4lWAwCiGMY3s3A59gwUL4F4POb+b29rmjCepu543bBUY\nGRDI/dDT7xzXXSPEexmh6rruVh8OC1VJEB6pYW1NeXwbTCrnTB2PUjbN8CL0jMfv\nvtqyIxk8rEAwvtIykvXWPlP37MWdo/DcVhqGnVNHMQKBgQDOINS0c/IAs7azU0eQ\nNIX3j/gNEbzHRgEGRclw9y4NOz+djc65MPEw4Mf+BkOSIgbchT4vD72wCQbwd5S/\nBs/G5q5fx/mtr/5O6J1jBbDRTlp0LNtE6/Ai40vStCGiEG54gZCvor3l6Q9ToSLe\n1DR+3Tdmph+cD59CpOuf3THI5QKBgQDEpStV693QrbWHpVGDLs0o/kO81YoH7tC3\nDpsUlwpWU4aQhUXJQ1GIAt17oY4T7uQznIqQC0OsNfuDPQ7AuoeFVYShQN2PxJu0\nneb1nxRkvo9hpJlVVnyXeKHGZJ43Ao1MFSMgPoJEgYWBXFc3bViO2KcpxqeIYXEf\n4iuXSAUB0QKBgE8yVgcvNSAH7H5h1PEW/RHtAsUit4Fo6CPc1FTO46a5yOtj/LUy\nlLjO5Ig5J+URpck8eHPkfGESVtQ1XbU3jMVDBGRQlSGiqPbwcOgG27TPgfl48pY8\ngHsnEY7XHsUBwzARt+GDiaq4LOdY1ej/Z1wG6q5JzYNMjUgxzUYS2nnxAoGBAK5/\nk1EPmSqQu0G/pfGvGkeCOkHbjD014uhOgbdnwLiSLhsY6LCMmFEFmd0Xo6h0mPRj\nuWHRXR/4V1RCXlEQNSpQlP0zPmlRoopIhKb5n3M21q1jDt33fWA8n/IZX3yZOyGE\nsELwtVBtTzdX5d09nxRDlTMxIYGYVnZgkSYRtr/BAoGABHTnz6R61sMokd4AzILo\n1Gm4+YLO3Rb28+JOtTtv5ujcooUBr25sowAD50V4ARB+gxU5LDlCB5QGLHiE3SBS\nIK/Bo50hUZEwT8Ya8WPtes5CLqH8WZuJ4HQBTFioUxGHL0gUjVMSgVYMJ9IZftD9\nCaJLV4k3E4vXqg72kJDylk4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kiberone@logical-handler-353506.iam.gserviceaccount.com",
+  "client_id": "107396768249883368013",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kiberone%40logical-handler-353506.iam.gserviceaccount.com"
+}
