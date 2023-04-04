@@ -3,20 +3,16 @@
     {
       "id": "5862683738:5862683738",
       "data": {
-        "type": "auth",
+        "type": "notAuth",
         "__scenes": {},
-        "group": "Группа 4 СБ 18:00",
-        "studentId": "128",
-        "phone": "89287697822",
-        "code": "7822",
-        "infoMsgId": null,
-        "lastUpdate": 1680613546302
+        "group": "Группа 7 ВС 15:30"
       }
     },
     {
       "id": "449631108:449631108",
       "data": {
-        "type": "notAuth"
+        "type": "notAuth",
+        "__scenes": {}
       }
     }
   ]
