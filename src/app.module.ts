@@ -9,7 +9,7 @@ import { GoogleSheetsService } from "./google-sheets/google-sheets.service";
 
 dotenv.config();
 
-const sessions = new LocalSession({database: 'session_db.json'})
+export const sessions = new LocalSession({database: 'session_db.json'})
 
 @Module({
   imports: [
