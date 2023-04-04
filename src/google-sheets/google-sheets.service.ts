@@ -154,8 +154,7 @@ export class GoogleSheetsService {
             };
             await sheet.addRow(newRow); // добавляем новую строку в таблицу
         } catch (e) {
-            console.log(e.message, 'Что-пошло не так, setMetrics()');
-            throw new BadRequestException('Что-пошло не так, setMetrics()')
+            console.log(e)
         }
     }
 

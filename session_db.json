@@ -11,8 +11,14 @@
     {
       "id": "449631108:449631108",
       "data": {
-        "type": "notAuth",
-        "__scenes": {}
+        "type": "auth",
+        "__scenes": {},
+        "group": "Группа 2 СБ 13:00",
+        "studentId": "101",
+        "phone": "89185212511",
+        "code": "2511",
+        "infoMsgId": 1623,
+        "lastUpdate": 1680619954217
       }
     }
   ]

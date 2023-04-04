@@ -6,6 +6,8 @@ import { AppService } from './app.service';
 import { AppUpdate } from './app.update';
 import { GoogleSheetsModule } from './google-sheets/google-sheets.module';
 import { GoogleSheetsService } from "./google-sheets/google-sheets.service";
+import {APP_FILTER} from "@nestjs/core";
+import {AnyExceptionFilter} from "./any-exception.filter";
 
 dotenv.config();
 
@@ -19,7 +21,10 @@ export const sessions = new LocalSession({database: 'session_db.json'})
     }),
     GoogleSheetsModule
   ],
-  providers: [AppService, AppUpdate, GoogleSheetsService],
+  providers: [AppService, AppUpdate, GoogleSheetsService, {
+    provide: APP_FILTER,
+    useClass: AnyExceptionFilter,
+  },],
 })
 export class AppModule {
 

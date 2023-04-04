@@ -25,13 +25,8 @@ export class AppUpdate {
 
     @Start()
     async startCommand(ctx: Context) {
-        const memberId = ctx.from.id;
         const studentId = ctx.session.studentId;
-        try {
-            await this.google.setMetrics(ctx.session.studentId, ctx.from.id, "start")
-        } catch (e) {
-            console.log(e)
-        }
+
 
         try {
             if (studentId && ctx.session.type !== "notAuth") {
