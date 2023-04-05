@@ -41,6 +41,10 @@ export class AppUpdate {
         }
     }
 
+    async sendNotification(id) {
+        await this.bot.context.reply('sd')
+    }
+
     async goAuth(ctx: Context, e?: Error) {
         ctx.session.type = "notAuth";
         await ctx.reply(`Привет, ${ctx.from.first_name || ctx.from.username} 🔥`);
