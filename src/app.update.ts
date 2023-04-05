@@ -34,7 +34,7 @@ export class AppUpdate {
                 await ctx.reply(`Привет, ${ctx.from.first_name || ctx.from.username} 🔥`);
                 await ctx.reply(`Ты по поводу нашего студента: ${student?.name || "null"}?`, acceptStudentButtons());
             } else {
-                throw new BadRequestException("Вероятно, ты еще не авторизованy 🤷🏻‍♂️");
+                throw new BadRequestException("Вероятно, ты еще не авторизован 🤷🏻‍♂️");
             }
         } catch (e) {
             await this.goAuth(ctx, e)
