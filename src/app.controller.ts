@@ -7,6 +7,6 @@ export class AppController {
 
   @Get('add-ticket/:tgId')
   getHello(@Param('tgId') id: string) {
-    return id.toString()
+    return 'tggg'
   }
 }
