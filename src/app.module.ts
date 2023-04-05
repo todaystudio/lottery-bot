@@ -6,7 +6,6 @@ import { AppService } from './app.service';
 import { AppUpdate } from './app.update';
 import { GoogleSheetsModule } from './google-sheets/google-sheets.module';
 import { GoogleSheetsService } from "./google-sheets/google-sheets.service";
-import { AppController } from "./app.controller";
 
 dotenv.config();
 
@@ -20,7 +19,6 @@ export const sessions = new LocalSession({database: 'session_db.json'})
     }),
     GoogleSheetsModule
   ],
-  controllers: [AppController],
   providers: [AppService, AppUpdate, GoogleSheetsService],
 })
 export class AppModule {
