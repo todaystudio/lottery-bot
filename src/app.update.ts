@@ -59,6 +59,7 @@ export class AppUpdate {
     async getHelp(@Ctx() ctx: Context) {
         await ctx.reply('Если у тебя возникли вопросы по работе с ботом, то ты смело можешь писать сюда @todaystudio_web')
         try {
+            await this.sendNotification('107')
             await this.google.setMetrics(ctx.session.studentId, ctx.from.id, "help")
         } catch (e) {
             console.log(e)
