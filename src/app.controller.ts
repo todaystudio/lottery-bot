@@ -12,6 +12,6 @@ export class AppController {
   @Get('add-ticket/:tgId')
   async getHello(@Param('tgId') id: string) {
     await this.bot.sendNotification(id)
-    return '345'
+    return '345dd'
   }
 }
