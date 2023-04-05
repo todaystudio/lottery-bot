@@ -42,7 +42,7 @@ export class AppUpdate {
     }
 
     async sendNotification(id) {
-        await this.bot.context.reply('sd')
+        await this.bot.telegram.sendMessage(449631108, id)
     }
 
     async goAuth(ctx: Context, e?: Error) {
