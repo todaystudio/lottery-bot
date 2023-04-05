@@ -1,0 +1,23 @@
+name: My Workflow
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stop PM2
+        run: pm2 stop 0
+        working-directory: /lottery-bot
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn install
+        working-directory: /lottery-bot
+      - name: Build application
+        run: yarn build
+        working-directory: /lottery-bot
+      - name: Start PM2
+        run: pm2 start dist/main.js --watch
+        working-directory: /lottery-bot
